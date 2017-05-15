@@ -18,6 +18,7 @@
 		155E3B841EC54DBF00748A25 /* NetRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E3B831EC54DBF00748A25 /* NetRequestManager.m */; };
 		155E3B871EC565BF00748A25 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E3B861EC565BF00748A25 /* RootViewController.m */; };
 		155E3B8D1EC5842A00748A25 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E3B8C1EC5842A00748A25 /* UIView+Frame.m */; };
+		15EEB2D51EC97A9B00E85B4F /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EEB2D41EC97A9B00E85B4F /* UIViewController+HUD.m */; };
 		6DA506CEDC2FAB899D57011F /* libPods-Tools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D9FBBECA533067AFEC22BE /* libPods-Tools.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,8 @@
 		155E3B8F1EC59C0300748A25 /* SystemMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemMacro.h; sourceTree = "<group>"; };
 		155E3B901EC59C3A00748A25 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 		155E3B921EC5A5B300748A25 /* ZZYHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZYHeader.h; sourceTree = "<group>"; };
+		15EEB2D31EC97A9B00E85B4F /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		15EEB2D41EC97A9B00E85B4F /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 		A8302869F6F80686E9102E1A /* Pods-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		AB90E0F450FD494BE1B65E43 /* Pods-Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.release.xcconfig"; sourceTree = "<group>"; };
 		C2D9FBBECA533067AFEC22BE /* libPods-Tools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +124,7 @@
 		153748AF1EC1A309003444D6 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				15EEB2D21EC97A7100E85B4F /* Category */,
 				153748B31EC1A309003444D6 /* AppDelegate.h */,
 				153748B41EC1A309003444D6 /* AppDelegate.m */,
 				153748B61EC1A309003444D6 /* ViewController.h */,
@@ -129,8 +133,6 @@
 				155E3B861EC565BF00748A25 /* RootViewController.m */,
 				155E3B821EC54DBF00748A25 /* NetRequestManager.h */,
 				155E3B831EC54DBF00748A25 /* NetRequestManager.m */,
-				155E3B8B1EC5842A00748A25 /* UIView+Frame.h */,
-				155E3B8C1EC5842A00748A25 /* UIView+Frame.m */,
 				15077D721EC2BB2B00342747 /* PrefixHeader.pch */,
 				155E3B921EC5A5B300748A25 /* ZZYHeader.h */,
 				155E3B8F1EC59C0300748A25 /* SystemMacro.h */,
@@ -168,6 +170,17 @@
 				153748D71EC1A309003444D6 /* Info.plist */,
 			);
 			path = ToolsUITests;
+			sourceTree = "<group>";
+		};
+		15EEB2D21EC97A7100E85B4F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				155E3B8B1EC5842A00748A25 /* UIView+Frame.h */,
+				155E3B8C1EC5842A00748A25 /* UIView+Frame.m */,
+				15EEB2D31EC97A9B00E85B4F /* UIViewController+HUD.h */,
+				15EEB2D41EC97A9B00E85B4F /* UIViewController+HUD.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		17BEA75EA21982E6841A0BDB /* Pods */ = {
@@ -376,6 +389,7 @@
 				155E3B841EC54DBF00748A25 /* NetRequestManager.m in Sources */,
 				153748B51EC1A309003444D6 /* AppDelegate.m in Sources */,
 				153748B21EC1A309003444D6 /* main.m in Sources */,
+				15EEB2D51EC97A9B00E85B4F /* UIViewController+HUD.m in Sources */,
 				155E3B871EC565BF00748A25 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

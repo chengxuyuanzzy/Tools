@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "NetRequestManager.h"
 #import "UIView+Frame.h"
+#import "UIViewController+HUD.h"
 
 @interface RootViewController ()
 
@@ -46,14 +47,21 @@
         DebugLog(@"UUID %@", UUID);
         DebugLog(@"一天总共 %f秒", Seconds(1));
     }
+    [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(timer) userInfo:nil repeats:NO];
+    [self showHint:@"自己找网址!" delya:0 view:self.view];
     // Do any additional setup after loading the view.
+}
+
+- (void)timer {
+    [self hidesHUD];
 }
 
 
 - (void)buttonClick {
     NSDictionary *dic = @{};
     [kNetRequestManager requestJsonDataWithUrl:@"" params:dic type:1 log:@"baidu" block:^(BOOL requestSuccess, id requestData, NSError *requestError) {
-        AlertController(@"自己找网址去！");
+//        AlertController(@"自己找网址去！");
+        [self showHint:@"我再显示一次！" delay:3];
     }];
 }
 
