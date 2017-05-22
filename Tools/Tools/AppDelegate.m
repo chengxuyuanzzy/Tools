@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "NetRequestManager.h"
-#import "RootViewController.h"
+#import "ZYMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,9 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    RootViewController *rootVC = [[RootViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootVC];
-    self.window.rootViewController = nav;
+    ZYMainViewController *rootVC = [[ZYMainViewController alloc] init];
+    
+    self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     
     [[NetRequestManager shareManager] netStatusWithView:self.window];

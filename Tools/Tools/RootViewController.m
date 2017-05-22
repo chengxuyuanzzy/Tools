@@ -10,6 +10,7 @@
 #import "NetRequestManager.h"
 #import "UIView+Frame.h"
 #import "UIViewController+HUD.h"
+#import "OnceViewController.h"
 
 @interface RootViewController ()
 
@@ -62,6 +63,8 @@
     [kNetRequestManager requestJsonDataWithUrl:@"" params:dic type:1 log:@"baidu" block:^(BOOL requestSuccess, id requestData, NSError *requestError) {
 //        AlertController(@"自己找网址去！");
         [self showHint:@"我再显示一次！" delay:3];
+//        OnceViewController *onceVC = [[OnceViewController alloc] init];
+//        [self.navigationController pushViewController:onceVC animated:YES];
     }];
 }
 

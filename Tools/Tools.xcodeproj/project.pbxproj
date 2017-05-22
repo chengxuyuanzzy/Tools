@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1514CDBC1ED2BC5D00D83581 /* ZYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1514CDB51ED2BC5D00D83581 /* ZYMainViewController.m */; };
+		1514CDBD1ED2BC5D00D83581 /* ZYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1514CDB71ED2BC5D00D83581 /* ZYNavigationController.m */; };
+		1514CDBE1ED2BC5D00D83581 /* ZYSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1514CDB91ED2BC5D00D83581 /* ZYSecondViewController.m */; };
+		1514CDBF1ED2BC5D00D83581 /* ZYThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1514CDBB1ED2BC5D00D83581 /* ZYThreeViewController.m */; };
 		153748B21EC1A309003444D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 153748B11EC1A309003444D6 /* main.m */; };
 		153748B51EC1A309003444D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 153748B41EC1A309003444D6 /* AppDelegate.m */; };
 		153748B81EC1A309003444D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153748B71EC1A309003444D6 /* ViewController.m */; };
@@ -19,6 +23,7 @@
 		155E3B871EC565BF00748A25 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E3B861EC565BF00748A25 /* RootViewController.m */; };
 		155E3B8D1EC5842A00748A25 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E3B8C1EC5842A00748A25 /* UIView+Frame.m */; };
 		15EEB2D51EC97A9B00E85B4F /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EEB2D41EC97A9B00E85B4F /* UIViewController+HUD.m */; };
+		15EEB2D81EC98FEB00E85B4F /* OnceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EEB2D71EC98FEB00E85B4F /* OnceViewController.m */; };
 		6DA506CEDC2FAB899D57011F /* libPods-Tools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D9FBBECA533067AFEC22BE /* libPods-Tools.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +46,14 @@
 
 /* Begin PBXFileReference section */
 		15077D721EC2BB2B00342747 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1514CDB51ED2BC5D00D83581 /* ZYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMainViewController.m; sourceTree = "<group>"; };
+		1514CDB61ED2BC5D00D83581 /* ZYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNavigationController.h; sourceTree = "<group>"; };
+		1514CDB71ED2BC5D00D83581 /* ZYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNavigationController.m; sourceTree = "<group>"; };
+		1514CDB81ED2BC5D00D83581 /* ZYSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSecondViewController.h; sourceTree = "<group>"; };
+		1514CDB91ED2BC5D00D83581 /* ZYSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSecondViewController.m; sourceTree = "<group>"; };
+		1514CDBA1ED2BC5D00D83581 /* ZYThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYThreeViewController.h; sourceTree = "<group>"; };
+		1514CDBB1ED2BC5D00D83581 /* ZYThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYThreeViewController.m; sourceTree = "<group>"; };
+		1514CDC01ED2BCAD00D83581 /* ZYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMainViewController.h; sourceTree = "<group>"; };
 		153748AD1EC1A309003444D6 /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		153748B11EC1A309003444D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		153748B31EC1A309003444D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +81,8 @@
 		155E3B921EC5A5B300748A25 /* ZZYHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZYHeader.h; sourceTree = "<group>"; };
 		15EEB2D31EC97A9B00E85B4F /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
 		15EEB2D41EC97A9B00E85B4F /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		15EEB2D61EC98FEB00E85B4F /* OnceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnceViewController.h; sourceTree = "<group>"; };
+		15EEB2D71EC98FEB00E85B4F /* OnceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnceViewController.m; sourceTree = "<group>"; };
 		A8302869F6F80686E9102E1A /* Pods-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		AB90E0F450FD494BE1B65E43 /* Pods-Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.release.xcconfig"; sourceTree = "<group>"; };
 		C2D9FBBECA533067AFEC22BE /* libPods-Tools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +114,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1514CDC11ED2BD4B00D83581 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				1514CDC01ED2BCAD00D83581 /* ZYMainViewController.h */,
+				1514CDB51ED2BC5D00D83581 /* ZYMainViewController.m */,
+				1514CDB61ED2BC5D00D83581 /* ZYNavigationController.h */,
+				1514CDB71ED2BC5D00D83581 /* ZYNavigationController.m */,
+			);
+			name = Tabbar;
+			sourceTree = "<group>";
+		};
 		153748A41EC1A309003444D6 = {
 			isa = PBXGroup;
 			children = (
@@ -129,8 +155,15 @@
 				153748B41EC1A309003444D6 /* AppDelegate.m */,
 				153748B61EC1A309003444D6 /* ViewController.h */,
 				153748B71EC1A309003444D6 /* ViewController.m */,
+				1514CDC11ED2BD4B00D83581 /* Tabbar */,
 				155E3B851EC565BF00748A25 /* RootViewController.h */,
 				155E3B861EC565BF00748A25 /* RootViewController.m */,
+				1514CDB81ED2BC5D00D83581 /* ZYSecondViewController.h */,
+				1514CDB91ED2BC5D00D83581 /* ZYSecondViewController.m */,
+				1514CDBA1ED2BC5D00D83581 /* ZYThreeViewController.h */,
+				1514CDBB1ED2BC5D00D83581 /* ZYThreeViewController.m */,
+				15EEB2D61EC98FEB00E85B4F /* OnceViewController.h */,
+				15EEB2D71EC98FEB00E85B4F /* OnceViewController.m */,
 				155E3B821EC54DBF00748A25 /* NetRequestManager.h */,
 				155E3B831EC54DBF00748A25 /* NetRequestManager.m */,
 				15077D721EC2BB2B00342747 /* PrefixHeader.pch */,
@@ -386,10 +419,15 @@
 			files = (
 				155E3B8D1EC5842A00748A25 /* UIView+Frame.m in Sources */,
 				153748B81EC1A309003444D6 /* ViewController.m in Sources */,
+				1514CDBC1ED2BC5D00D83581 /* ZYMainViewController.m in Sources */,
 				155E3B841EC54DBF00748A25 /* NetRequestManager.m in Sources */,
+				1514CDBF1ED2BC5D00D83581 /* ZYThreeViewController.m in Sources */,
+				15EEB2D81EC98FEB00E85B4F /* OnceViewController.m in Sources */,
 				153748B51EC1A309003444D6 /* AppDelegate.m in Sources */,
 				153748B21EC1A309003444D6 /* main.m in Sources */,
 				15EEB2D51EC97A9B00E85B4F /* UIViewController+HUD.m in Sources */,
+				1514CDBE1ED2BC5D00D83581 /* ZYSecondViewController.m in Sources */,
+				1514CDBD1ED2BC5D00D83581 /* ZYNavigationController.m in Sources */,
 				155E3B871EC565BF00748A25 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
